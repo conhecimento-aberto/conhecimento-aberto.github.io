@@ -15,7 +15,8 @@
                 <img  src="{{ site.baseurl }}/assets/{{ post_author.image}}" alt="...">
               </figure>
               <div class="ml-2">
-                <p class="text-dark text-small mb-0"><span class="text-primary">{{ post_author.name }}</span></p>
+                <p class="text-dark text-small mb-0">{{ post_author.name }}</p>
+                <p class="text-dark text-small mb-0">{{ post.date | date: "%d/%m/%Y" }}</p>
               </div>
             </div>
             {% else %}

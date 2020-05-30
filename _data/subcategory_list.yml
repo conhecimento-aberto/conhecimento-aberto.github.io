@@ -1,7 +1,12 @@
 #This file defines all categories that live within a parent category
 
-numeros:
-  name: Números
+matematica-reflexoes:
+  name: Reflexões
   parent-category: matematica
   parent-category-name: Matemática
-  description: O que são? Para que servem?
+  description: Uma busca por uma compreensão diferente
+conjuntos:
+  name: Conjuntos
+  parent-category: matematica
+  parent-category-name: Matemática
+  description: Um excelente começo

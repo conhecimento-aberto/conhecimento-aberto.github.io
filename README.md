@@ -1,9 +1,8 @@
-# Odin Knowledge Base
+# Conhecimento Aberto
 
-Odin is a Jekyll template for knowledgebases and support sites. Please see the [official Jekyll docs](https://jekyllrb.com/docs/) for more info on running, building and editing a Jekyll site.
+Este site é gerado com [Jekyll](https://jekyllrb.com/).
 
-*Full documentation is in the works and coming soon*
+1. Instale as dependências com `bundle install`
+2. Instancie um server local com `bundle exec jekyll serve`
 
-
-
-
+Para o segundo passo, também é possível usar `make serve`.

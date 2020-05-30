@@ -4,7 +4,12 @@ layout: default
 
 {% include header.html %}
 
-{% assign page_category = site.data.category_list[page.category] %}
+{% if site.data.category_list[page.category] %}
+  {% assign page_category = site.data.category_list[page.category] %}
+{% else %}
+  {% assign page_category = site.data.subcategory_list[page.category] %}
+  {% assign is_subcategory = true %}
+{% endif %}
 
 <div class="container-full">
     <div class="container grid-xl">
@@ -16,6 +21,11 @@ layout: default
             <li class="breadcrumb-item">
               <a href="{{ site.url }}{{ site.baseurl }}">Início</a>
             </li>
+            {% if is_subcategory %}
+              <li class="breadcrumb-item">
+                <a href="../{{ page_category.parent-category | slugify }}">{{ page_category.parent-category-name }}</a>
+              </li>
+            {% endif %}
             <li class="breadcrumb-item">
               <a href="../{{ page.category }}">{{ page_category.name }}</a>
             </li>

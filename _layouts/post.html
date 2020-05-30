@@ -6,7 +6,6 @@ layout: default
 
 {% assign page_category = site.data.category_list[page.category] %}
 
-
 <div class="container-full">
     <div class="container grid-xl">
       <div class="mt-12 show-md"></div>
@@ -15,7 +14,7 @@ layout: default
         <div class="column col-12">
           <ul class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="{{ site.url }}{{ site.baseurl }}">Help Center Home</a>
+              <a href="{{ site.url }}{{ site.baseurl }}">Início</a>
             </li>
             <li class="breadcrumb-item">
               <a href="../{{ page.category }}">{{ page_category.name }}</a>
@@ -47,13 +46,7 @@ layout: default
                     <p class="text-dark text-small text-italic mb-0">{{ page.last_modified_at | date: '%B %d, %Y'  }} - {% include reading-time.html %}</p>
                   </div>
                 {% endif %}
-
               {{ content }}
-
-              
-            
-
-
             </div>
           </div>
         </div>

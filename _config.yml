@@ -29,8 +29,8 @@ use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
 brand_name: Conhecimento Aberto
-header: How can we help you?
-subheader: Support and documentation for Odin
+header: Uma nova abordagem
+subheader: Material didático acessível, com uma linguagem feita para você
 
 meta_image: odin-meta.png
 
@@ -62,7 +62,7 @@ help_one_content: Se você quiser propor melhorias no conteúdo, sinta-se à von
 help_one_button: Github
 help_one_link: https://github.com/conhecimento-aberto/conhecimento-aberto.github.io/issues/new
 
-help_two_title: Publicação
+help_two_title: Divulgação
 help_two_content: A disseminação do conhecimento é o objetivo principal deste projeto e você também pode ajudar.
 help_two_button: Twitter
 help_two_link: #https://twitter.com/theteaguns

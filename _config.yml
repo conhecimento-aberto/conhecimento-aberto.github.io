@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Conhecimento Aberto
+tagline: Um mergulho introspectivo
 description: Um site com material didático acessível e de alta qualidade.
 baseurl: "" # the subpath of your site, e.g. /support
 url: https://conhecimento-aberto.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
@@ -58,7 +59,7 @@ nav_button_link: https://conhecimento-aberto.github.io
 
 # More Help
 help_one_title: Conteúdo
-help_one_content: Se você quiser propor melhorias no conteúdo, sinta-se à vontade para criar um ticket.
+help_one_content: Se tiver dúvidas com relação ao conteúdo ou quiser propor melhorias no mesmo, sinta-se à vontade para abrir um ticket.
 help_one_button: Github
 help_one_link: https://github.com/conhecimento-aberto/conhecimento-aberto.github.io/issues/new
 

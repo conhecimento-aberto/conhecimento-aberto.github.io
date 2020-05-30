@@ -1,11 +1,8 @@
 #This file defines all the categories you are using
 
-using-subcategories:
-  name: Using Subcategories
-  description: Learn to use subcategories!
-using-odin:
-  name: Using Odin
-  description: Welcome to Odin, time to get started
-customizing-odin:
-  name: Customizing Odin
-  description: Welcome to Odin, time to get started
+blog:
+  name: Blog
+  description: Atualizações a respeito do projeto
+matematica:
+  name: Matemática
+  description: A matéria-prima deste projeto

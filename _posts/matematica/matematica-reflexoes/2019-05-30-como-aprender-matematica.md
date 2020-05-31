@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Matemática e Sociedade
+title: Como aprender Matemática?
 date: 2020-05-30
 category: matematica-reflexoes
 author: arthur

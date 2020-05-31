@@ -1,10 +1,10 @@
 #This file defines all categories that live within a parent category
 
-matematica-reflexoes:
-  name: Reflexões
-  parent-category: matematica
-  parent-category-name: Matemática
-  description: Uma busca por uma compreensão diferente
+# matematica-reflexoes:
+#   name: Reflexões
+#   parent-category: matematica
+#   parent-category-name: Matemática
+#   description: Uma busca por uma compreensão diferente
 conjuntos:
   name: Conjuntos
   parent-category: matematica
